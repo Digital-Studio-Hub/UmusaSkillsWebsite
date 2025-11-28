@@ -1,0 +1,553 @@
+Umusa Skills Development**
+
+**Domain:** [https://umusaskillsdevelopment.co.za](https://umusaskillsdevelopment.co.za/)  
+**Business Name:** Umusa Skills Development  
+**Contact Person:** **Lee-Ann (CEO / Manager)**  
+📞 **074 458 5435**  
+📧 **[umusaskillsdevelopment@gmail.com](mailto:umusaskillsdevelopment@gmail.com)**  
+Tagline (from business card & banners):  
+**“Building Skills. Building Futures.”**
+
+----------
+
+#  **BRAND COLORS — Extracted from Logo (Use Exactly These)**
+
+### **Primary Colors**
+
+Color
+
+Hex
+
+Usage
+
+**Royal Education Blue**
+
+**#0C3FA9**
+
+Headings, accents, icons, CTAs
+
+**Golden Learning Yellow**
+
+**#E3AE27**
+
+Highlights, buttons, price tags, calls to action
+
+**Skillset Ink Blue**
+
+**#0E56C2**
+
+Secondary headings, section titles
+
+**Deep Black**
+
+**#000000**
+
+Body text, strong labels
+
+**Clean White**
+
+**#FFFFFF**
+
+Backgrounds for clarity
+
+### **Design Style**
+
+-   Modern, clean education brand
+    
+-   Royal blue + golden yellow = premium quality training
+    
+-   Rounded UI components
+    
+-   Professional typography
+    
+-   Student-focused visuals
+    
+
+### **Typography**
+
+-   **Primary Font:** Poppins / Montserrat
+    
+-   **Secondary:** Nunito / Inter
+    
+-   Buttons: Bold white text on **blue or gold**
+    
+
+----------
+
+# **WEBSITE STRUCTURE — Clean, Modern, Conversion-Focused**
+
+## **1 Home Page**
+
+Hero Section:
+
+-   Large hero of students learning (use stock + provided banners)
+    
+-   Big headline:  
+    **“Accredited & Non-Accredited Courses – Study From Home Today.”**
+    
+-   Subheadline:  
+    **“Affordable, flexible online courses with job placement support.”**
+    
+-   CTAs (Blue or Gold):
+    
+    -   **Browse Courses**
+        
+    -   **WhatsApp Us (074 458 5435)**
+        
+
+Next Sections:
+
+-   **About Umusa Skills Development**
+    
+-   **Why Choose Us?**
+    
+-   **Most Popular Courses**
+    
+-   **Black Friday or Special Promo Section (from banner)**
+    
+-   **Earning Potential for TEFL (Use calculation image)**
+    
+-   **Testimonials / Student Success**
+    
+-   **Call to Action**
+    
+
+----------
+
+## **2 About Page**
+
+Include details extracted from banners:
+
+-   CEO: **Lee-Ann**
+    
+-   Mission:  
+    **“Building Skills. Building Futures.”**
+    
+-   What they offer:
+    
+    -   Accredited & Non-Accredited Courses
+        
+    -   Lifetime Support
+        
+    -   Study-From-Home
+        
+    -   Free Readiness Programs
+        
+    -   Practical Demonstrations Included
+        
+    -   Job Placement Assistance
+        
+
+Also include:
+
+-   Vision
+    
+-   Core values
+    
+-   Accreditation partners if applicable
+    
+
+----------
+
+## **3 Courses Page (MASTER SECTION)**
+
+Use ALL content extracted from the “Courses Available” image + “Accredited courses list” + “Black Friday special” + TEFL / Earning potential.
+
+### **Highlight Section**
+
+-   “Study From Home Online Courses”
+    
+-   Certificates Issued On Completion
+    
+-   Job Assistance Provided
+    
+-   Lifetime Support & Guidance
+    
+-   Payment Plans Available
+    
+-   Registration Fee: **R500**
+    
+
+### **Main Course Categories**
+
+Extract all courses from screenshots:
+
+#### **General Courses**
+
+-   TEFL
+    
+-   Office Administration
+    
+-   Cashier
+    
+-   Cyber Security
+    
+-   Hospitality
+    
+-   Accounting
+    
+-   Home Base Care
+    
+-   Data Analysis
+    
+-   Business Management
+    
+-   Hotel Management
+    
+-   Office Management
+    
+-   Construction Management
+    
+-   Clinical Management
+    
+-   Teaching Assistant
+    
+-   HR
+    
+-   Security Guard
+    
+-   Customer Service
+    
+-   Fire Safety
+    
+-   Travel & Tourism
+    
+-   Computer Literacy
+    
+-   Forklift
+    
+-   Agriculture
+    
+-   Baking & Catering
+    
+-   Barista
+    
+-   Beauty & Nails
+    
+-   Lashes
+    
+-   Massage
+    
+-   Public Relations
+    
+-   Fashion Design
+    
+-   Recruitment Skills
+    
+-   Warehouse & Material Handling
+    
+-   Personal Development
+    
+-   Digital Marketing
+    
+
+#### **Accredited QCTO Courses (From spreadsheet screenshot)**
+
+-   Plumbing Hand
+    
+-   Assistant Baker
+    
+-   Shielded Metal Arc
+    
+-   Hairstylist
+    
+-   Coded Welding
+    
+-   Field Ranger
+    
+-   Wheel Balancer
+    
+-   Java Programmer
+    
+-   Cybersecurity Defender
+    
+-   Front-End Web Designer
+    
+-   Python Programmer
+    
+-   Occupational Health and Safety Assistant
+    
+-   Office Administrator
+    
+-   Project Manager
+    
+-   Social Auxiliary Worker
+    
+-   Social Counselling Worker
+    
+-   Home Based Personal Care Worker
+    
+-   Nail Therapist
+    
+-   Assessment Practitioner
+    
+-   Assistant Life Coach
+    
+-   Intermediate Emergency First Aid Responder
+    
+-   Workplace Preparedness
+    
+-   Community Development Worker
+    
+-   Learning & Development Facilitator
+    
+-   Assistant Handyperson
+    
+-   Job Placement Facilitator
+    
+-   Workplace Essential Skills
+    
+-   Career Development Information Officer
+    
+-   Bookkeeper
+    
+-   Early Childhood Development Practitioner
+    
+-   Christian Religious Professional
+    
+-   Early Childhood Caregiver
+    
+-   Technopreneur
+    
+-   New Venture Creation
+    
+
+### **Course Page Structure**
+
+Every course must have:
+
+-   Title
+    
+-   Short description
+    
+-   Duration
+    
+-   Accreditation (if applicable)
+    
+-   Fees or “Request Info”
+    
+-   CTA: **“Enroll Now”** or **“Request Information”**
+    
+
+----------
+
+## **4 Special Promotions Page**
+
+Pull from Black Friday special poster:
+
+-   TEFL
+    
+-   Free TEFL certificate
+    
+-   R2000 study guide included
+    
+-   A-Z step-by-step practical training
+    
+-   Job placement after completion
+    
+
+Add countdown timer (if developer supports it).
+
+----------
+
+## **5 TEFL Earning Potential Page**
+
+Use text from screenshot:
+
+-   1 USD = R18.81
+    
+-   $6 per lesson
+    
+-   25-minute lessons
+    
+-   51 lessons per week
+    
+-   Weekly earning: **R5755.86**
+    
+-   Monthly earning: **R23,023.44**
+    
+-   CTA: **“Sign Up for TEFL Webinar”**
+    
+
+----------
+
+## **6 Contact Page**
+
+-   Contact: **074 458 5435**
+    
+-   Email: **[umusaskillsdevelopment@gmail.com](mailto:umusaskillsdevelopment@gmail.com)**
+    
+-   WhatsApp CTA
+    
+-   Simple form (ZeptoMail)
+    
+-   FAQs
+    
+-   “How to Enroll” Section
+    
+
+----------
+
+#  **LEKKER NETWORK INTEGRATION (Required)**
+
+### Footer Section
+
+-   Add **Lekker Network Logo** centered
+    
+-   Make clickable → [https://lekker.network/](https://lekker.network/)
+    
+-   Under it: **“Powered by Lekker Network”**
+    
+-   Use golden yellow accents to match logo
+    
+
+### Verified Badge Grid
+
+-   5-column layout
+    
+-   Title: **Verified Badge**
+    
+-   Badge links to:  
+    [https://lekker.network/the-lekker-network-verified](https://lekker.network/the-lekker-network-verified)
+    
+-   Text below: **“Lekker Network Verified”**
+    
+
+----------
+
+#  **ZEPTO MAIL BACKEND**
+
+Create backend route `/api/send-mail`:
+
+### Requirements:
+
+-   Use ZeptoMail API
+    
+-   Environment variables:
+    
+    -   `ZEPTOMAIL_API_KEY`
+        
+    -   `ZEPTOMAIL_FROM` = [noreply@umusaskillsdevelopment.co.za](mailto:noreply@umusaskillsdevelopment.co.za)
+        
+    -   `ADMIN_EMAIL` = [umusaskillsdevelopment@gmail.com](mailto:umusaskillsdevelopment@gmail.com)
+        
+-   Validate form fields
+    
+-   Send admin & client confirmation
+    
+-   Return JSON response
+    
+-   Test every endpoint
+    
+
+----------
+
+#  **IMAGERY & UI RULES**
+
+Use:
+
+-   Modern student imagery
+    
+-   People learning
+    
+-   Laptops, notebooks, classrooms
+    
+-   Skills training
+    
+-   TEFL examples
+    
+-   Certification visuals
+    
+
+Image rules:
+
+-   WebP format
+    
+-   Lazy loaded
+    
+-   Consistent lighting
+    
+-   ≤ 150 KB
+    
+-   Proper ALT tags e.g.  
+    _“Umusa Skills Development – Online course training sessions.”_
+    
+
+----------
+
+#  **SEO & STRUCTURED DATA**
+
+Add JSON-LD:
+
+-   Organization
+    
+-   LocalBusiness
+    
+-   Course
+    
+-   ItemList
+    
+-   WebSite + SearchAction
+    
+-   BreadcrumbList
+    
+
+### Meta Title:
+
+“Umusa Skills Development | Accredited & Online Skills Courses – Study From Home”
+
+### Meta Description:
+
+“Enroll in accredited and non-accredited skills courses with lifetime support, study-from-home flexibility, and job placement assistance. Contact Umusa Skills Development today.”
+
+### SEO Locations:
+
+```
+"areaServed": ["South Africa"]
+
+```
+
+----------
+
+#  **PERFORMANCE**
+
+-   Fully mobile-first
+    
+-   Load time < 1.5s
+    
+-   Core Web Vitals compliance
+    
+-   Minified CSS & JS
+    
+-   CDN + browser caching
+    
+-   WCAG 2.1 AA accessibility
+    
+
+----------
+
+#  **ANALYTICS**
+
+Install:
+
+-   GA4
+    
+-   GTM
+    
+
+Track:
+
+-   Course enrollments
+    
+-   Contact form
+    
+-   WhatsApp clicks
+    
+-   Download links
+    
+
+Include:
+
+-   `sitemap.xml`
+    
+-   `robots.txt`
