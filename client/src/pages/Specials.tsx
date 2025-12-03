@@ -1,7 +1,7 @@
 import Layout from "@/components/layout/Layout";
 import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
-import { Timer, Gift, BookOpen, Briefcase } from "lucide-react";
+import { Timer, Gift, Bell, Star } from "lucide-react";
 
 export default function Specials() {
   return (
@@ -13,59 +13,47 @@ export default function Specials() {
         <div className="container relative z-10 mx-auto px-4 md:px-8 text-center">
           <div className="inline-flex items-center gap-2 bg-brand-gold text-black px-6 py-2 rounded-full font-bold mb-8 animate-bounce">
             <Timer className="w-5 h-5" />
-            <span>Offer Ends Soon!</span>
+            <span>Limited Time Offers</span>
           </div>
 
-          <h1 className="text-6xl md:text-8xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-brand-gold via-yellow-200 to-brand-gold mb-6 font-heading uppercase tracking-tighter">
-            Black Friday
+          <h1 className="text-5xl md:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-brand-gold via-yellow-200 to-brand-gold mb-6 font-heading uppercase tracking-tighter">
+            Monthly Specials
           </h1>
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-12">
-            Ultimate Career Starter Pack
+          <h2 className="text-2xl md:text-3xl font-bold text-gray-300 mb-12 max-w-3xl mx-auto">
+            We regularly update this page with exclusive deals on our accredited and non-accredited courses.
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto mb-12">
-            <div className="bg-gray-900/80 backdrop-blur p-8 rounded-3xl border border-brand-gold/30">
-              <h3 className="text-2xl font-bold text-brand-gold mb-6">What You Get</h3>
-              <ul className="space-y-4 text-left">
-                <li className="flex items-start gap-4 text-lg">
-                  <div className="bg-brand-gold/20 p-2 rounded-lg">
-                    <Gift className="w-6 h-6 text-brand-gold" />
-                  </div>
-                  <div>
-                    <span className="font-bold block">Free TEFL Certificate</span>
-                    <span className="text-gray-400 text-sm">Internationally recognized accreditation</span>
-                  </div>
-                </li>
-                <li className="flex items-start gap-4 text-lg">
-                  <div className="bg-brand-gold/20 p-2 rounded-lg">
-                    <BookOpen className="w-6 h-6 text-brand-gold" />
-                  </div>
-                  <div>
-                    <span className="font-bold block">R2000 Study Guide Included</span>
-                    <span className="text-gray-400 text-sm">Comprehensive materials for success</span>
-                  </div>
-                </li>
-                <li className="flex items-start gap-4 text-lg">
-                  <div className="bg-brand-gold/20 p-2 rounded-lg">
-                    <Briefcase className="w-6 h-6 text-brand-gold" />
-                  </div>
-                  <div>
-                    <span className="font-bold block">Job Placement Assistance</span>
-                    <span className="text-gray-400 text-sm">We help you get hired immediately</span>
-                  </div>
-                </li>
-              </ul>
+            <div className="bg-gray-900/80 backdrop-blur p-8 rounded-3xl border border-brand-gold/30 flex flex-col justify-center items-center text-center h-full">
+              <div className="w-16 h-16 bg-brand-gold/20 rounded-full flex items-center justify-center mb-6">
+                <Bell className="w-8 h-8 text-brand-gold" />
+              </div>
+              <h3 className="text-2xl font-bold text-white mb-4">Stay Tuned!</h3>
+              <p className="text-gray-400 mb-6">
+                Our next big special is coming soon. Don't miss out on the chance to upgrade your skills for less.
+              </p>
+              <Button asChild variant="outline" className="border-brand-gold text-brand-gold hover:bg-brand-gold hover:text-black">
+                <Link href="/contact">Join Waiting List</Link>
+              </Button>
             </div>
 
-            <div className="bg-brand-blue p-8 rounded-3xl flex flex-col justify-center items-center text-center">
-              <h3 className="text-2xl font-bold text-white mb-2">Total Value</h3>
-              <p className="text-5xl font-extrabold text-brand-gold mb-6 line-through opacity-50">R5,500</p>
-              <h3 className="text-2xl font-bold text-white mb-2">You Pay Only</h3>
-              <p className="text-6xl font-extrabold text-white mb-8">R500</p>
-              <Button asChild size="lg" className="w-full bg-brand-gold hover:bg-yellow-400 text-black font-bold h-14 text-xl">
-                <Link href="/contact">Claim Now</Link>
+            <div className="bg-brand-blue p-8 rounded-3xl flex flex-col justify-center items-center text-center h-full relative overflow-hidden">
+              <div className="absolute top-0 right-0 p-4 opacity-10">
+                <Star className="w-32 h-32 text-white" />
+              </div>
+              <h3 className="text-2xl font-bold text-white mb-4">Current Offer</h3>
+              <p className="text-lg text-blue-100 mb-6">
+                Get a <strong>Free Readiness Program</strong> with every registration this month.
+              </p>
+              
+              <div className="space-y-2 mb-8">
+                 <p className="text-4xl font-extrabold text-brand-gold">R500</p>
+                 <p className="text-sm text-blue-200">Registration Fee</p>
+              </div>
+
+              <Button asChild size="lg" className="w-full bg-brand-gold hover:bg-yellow-400 text-black font-bold h-12">
+                <Link href="/contact">Enquire Now</Link>
               </Button>
-              <p className="text-sm text-blue-200 mt-4">*Limited spots available</p>
             </div>
           </div>
         </div>

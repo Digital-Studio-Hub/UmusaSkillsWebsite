@@ -9,9 +9,9 @@ export default function Hero() {
     <section className="relative bg-brand-blue overflow-hidden">
       {/* Background Image Overlay */}
       <div className="absolute inset-0 z-0">
-        <img 
-          src={heroImage} 
-          alt="Students learning" 
+        <img
+          src={heroImage}
+          alt="Students learning"
           className="w-full h-full object-cover opacity-20 mix-blend-overlay"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-brand-blue via-brand-blue/90 to-transparent" />
@@ -23,33 +23,39 @@ export default function Hero() {
             <CheckCircle2 className="w-4 h-4" />
             <span>Accredited & Non-Accredited Courses</span>
           </div>
-          
+
           <h1 className="text-4xl md:text-6xl font-bold font-heading leading-tight mb-6 animate-in fade-in slide-in-from-bottom-6 duration-700 delay-100">
-            Accredited & Non-Accredited Courses – <span className="text-brand-gold">Study From Home Today.</span>
+            Accredited & Non-Accredited Courses –{" "}
+            <span className="text-brand-gold">Study From Home Today.</span>
           </h1>
-          
+
           <p className="text-lg md:text-xl text-gray-200 mb-8 animate-in fade-in slide-in-from-bottom-6 duration-700 delay-200">
-            Affordable, flexible online courses with job placement support. Start building your future with Umusa Skills Development.
+            Affordable, flexible online courses with job placement support.
+            Start building your future with Umusa Skills Development.
           </p>
-          
+
           <div className="flex flex-col sm:flex-row gap-4 animate-in fade-in slide-in-from-bottom-6 duration-700 delay-300">
-            <Button 
-              asChild 
-              size="lg" 
+            <Button
+              asChild
+              size="lg"
               className="bg-brand-gold hover:bg-yellow-500 text-black font-bold text-lg h-14 px-8 rounded-full shadow-lg shadow-yellow-500/20"
             >
               <Link href="/courses">
                 Browse Courses <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
-            
-            <Button 
-              asChild 
-              variant="outline" 
-              size="lg" 
-              className="border-white text-brand-blue hover:bg-white hover:text-brand-blue font-bold text-lg h-14 px-8 rounded-full"
+
+            <Button
+              asChild
+              variant="outline"
+              size="lg"
+              className="border-white text-white hover:bg-white hover:text-brand-blue font-bold text-lg h-14 px-8 rounded-full"
             >
-              <a href={COMPANY_INFO.whatsapp} target="_blank" rel="noopener noreferrer">
+              <a
+                href={COMPANY_INFO.whatsapp}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 WhatsApp Us
               </a>
             </Button>
