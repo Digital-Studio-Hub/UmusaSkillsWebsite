@@ -12,7 +12,9 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
           {/* Brand Info */}
           <div>
-            <h3 className="text-2xl font-bold mb-4">{COMPANY_INFO.name}</h3>
+            <h3 className="text-white text-2xl font-bold mb-4">
+              {COMPANY_INFO.name}
+            </h3>
             <p className="text-gray-400 mb-6">{COMPANY_INFO.tagline}</p>
 
             <div className="space-y-2 text-gray-300">

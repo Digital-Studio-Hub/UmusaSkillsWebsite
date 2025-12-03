@@ -112,20 +112,21 @@ export default function Home() {
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80')] opacity-10 bg-cover bg-center mix-blend-overlay" />
         <div className="container relative z-10 mx-auto px-4 md:px-8 text-center">
           <span className="inline-block px-4 py-1 rounded-full bg-brand-gold text-black font-bold text-sm mb-6 animate-pulse">
-            MONTHLY SPECIALS
+            LIMITED TIME OFFER
           </span>
           <h2 className="text-4xl md:text-5xl font-bold mb-6 font-heading">
-            Unlock Your Potential for Less
+            Black Friday Specials On Now!
           </h2>
           <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-            Check out our latest special offers and save on your registration and course fees.
+            Get your Free TEFL Certificate + R2000 Study Guide included when you
+            register today.
           </p>
           <Button
             asChild
             size="lg"
             className="bg-white text-brand-blue hover:bg-gray-100 font-bold h-14 px-8 text-lg rounded-full"
           >
-            <Link href="/specials">View Current Specials</Link>
+            <Link href="/specials">Claim Offer Now</Link>
           </Button>
         </div>
       </section>
@@ -169,7 +170,7 @@ export default function Home() {
           <div className="bg-brand-ink rounded-3xl p-8 md:p-16 text-center text-white relative overflow-hidden">
             <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-brand-blue/50 to-transparent pointer-events-none" />
             <div className="relative z-10">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">
+              <h2 className="text-white text-3xl md:text-4xl font-bold mb-6">
                 Ready to Start Your Journey?
               </h2>
               <p className="text-lg text-White-100 mb-8 max-w-2xl mx-auto">
