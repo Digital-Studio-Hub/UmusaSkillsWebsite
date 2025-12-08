@@ -14,7 +14,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { useToast } from "@/hooks/use-toast";
-import { GENERAL_COURSES, QCTO_COURSES } from "@/lib/constants";
+import { GENERAL_COURSES } from "@/lib/constants";
 import { Loader2, Send } from "lucide-react";
 import { useState } from "react";
 
@@ -70,7 +70,7 @@ export default function ContactForm() {
     }
   }
 
-  const allCourses = [...GENERAL_COURSES, ...QCTO_COURSES].sort();
+  const allCourses = [...GENERAL_COURSES].sort();
 
   return (
     <Form {...form}>

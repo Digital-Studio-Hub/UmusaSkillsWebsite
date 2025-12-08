@@ -74,7 +74,7 @@ export default function About() {
           <h2 className="text-3xl font-bold text-center text-brand-blue mb-12">What We Offer</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              "Accredited & Non-Accredited Courses",
+              "Professional Skills Courses",
               "Lifetime Support & Guidance",
               "Study-From-Home Flexibility",
               "Free Readiness Programs",

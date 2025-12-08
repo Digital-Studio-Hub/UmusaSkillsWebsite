@@ -20,7 +20,7 @@ export default function Specials() {
             Monthly Specials
           </h1>
           <h2 className="text-2xl md:text-3xl font-bold text-gray-300 mb-12 max-w-3xl mx-auto">
-            We regularly update this page with exclusive deals on our accredited and non-accredited courses.
+            We regularly update this page with exclusive deals on our training courses.
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto mb-12">

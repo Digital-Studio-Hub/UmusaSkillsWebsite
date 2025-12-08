@@ -6,7 +6,7 @@ import { Link } from "wouter";
 
 interface CourseCardProps {
   title: string;
-  category: "General" | "QCTO Accredited";
+  category: string;
   description?: string;
   duration?: string;
   image?: string;
@@ -36,7 +36,7 @@ export default function CourseCard({
           </div>
         )}
         <div className="absolute top-4 right-4">
-          <Badge className={category === "QCTO Accredited" ? "bg-brand-blue text-white" : "bg-brand-gold text-black"}>
+          <Badge className="bg-brand-gold text-black">
             {category}
           </Badge>
         </div>

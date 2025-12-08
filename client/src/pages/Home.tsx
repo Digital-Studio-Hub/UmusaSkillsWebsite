@@ -6,10 +6,9 @@ import { GENERAL_COURSES, TESTIMONIALS } from "@/lib/constants";
 import {
   ArrowRight,
   Star,
-  ShieldCheck,
+  CheckCircle,
   Laptop,
   Users,
-  Trophy,
 } from "lucide-react";
 import { Link } from "wouter";
 import officeImage from "@assets/generated_images/office_administration_training.png";
@@ -43,9 +42,9 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
-                icon: ShieldCheck,
-                title: "Accredited Training",
-                desc: "Recognized qualifications that open doors to employment.",
+                icon: CheckCircle,
+                title: "Quality Training",
+                desc: "Comprehensive skills training designed for the workplace.",
               },
               {
                 icon: Laptop,
@@ -98,7 +97,7 @@ export default function Home() {
               <CourseCard
                 key={course}
                 title={course}
-                category="General"
+                category="Professional Skills"
                 image={course.includes("TEFL") ? teflImage : officeImage}
                 featured={i === 0}
               />
@@ -112,21 +111,20 @@ export default function Home() {
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80')] opacity-10 bg-cover bg-center mix-blend-overlay" />
         <div className="container relative z-10 mx-auto px-4 md:px-8 text-center">
           <span className="inline-block px-4 py-1 rounded-full bg-brand-gold text-black font-bold text-sm mb-6 animate-pulse">
-            LIMITED TIME OFFER
+            MONTHLY SPECIALS
           </span>
           <h2 className="text-4xl md:text-5xl font-bold mb-6 font-heading">
-            Black Friday Specials On Now!
+            Unlock Your Potential for Less
           </h2>
           <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-            Get your Free TEFL Certificate + R2000 Study Guide included when you
-            register today.
+            Check out our latest special offers and save on your registration and course fees.
           </p>
           <Button
             asChild
             size="lg"
             className="bg-white text-brand-blue hover:bg-gray-100 font-bold h-14 px-8 text-lg rounded-full"
           >
-            <Link href="/specials">Claim Offer Now</Link>
+            <Link href="/specials">View Current Specials</Link>
           </Button>
         </div>
       </section>

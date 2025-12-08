@@ -21,11 +21,11 @@ export default function Hero() {
         <div className="max-w-2xl text-white">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 text-brand-gold text-sm font-bold mb-6 animate-in fade-in slide-in-from-bottom-4 duration-700">
             <CheckCircle2 className="w-4 h-4" />
-            <span>Accredited & Non-Accredited Courses</span>
+            <span>Professional Skills Training</span>
           </div>
 
           <h1 className="text-4xl md:text-6xl font-bold font-heading leading-tight mb-6 animate-in fade-in slide-in-from-bottom-6 duration-700 delay-100">
-            Accredited & Non-Accredited Courses –{" "}
+            Professional Skills Courses –{" "}
             <span className="text-brand-gold">Study From Home Today.</span>
           </h1>
 

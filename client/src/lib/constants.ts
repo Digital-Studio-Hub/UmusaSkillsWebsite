@@ -31,21 +31,7 @@ export const GENERAL_COURSES = [
   "Personal Development", "Digital Marketing"
 ];
 
-export const QCTO_COURSES = [
-  "Plumbing Hand", "Assistant Baker", "Shielded Metal Arc", "Hairstylist",
-  "Coded Welding", "Field Ranger", "Wheel Balancer", "Java Programmer",
-  "Cybersecurity Defender", "Front-End Web Designer", "Python Programmer",
-  "Occupational Health and Safety Assistant", "Office Administrator",
-  "Project Manager", "Social Auxiliary Worker", "Social Counselling Worker",
-  "Home Based Personal Care Worker", "Nail Therapist", "Assessment Practitioner",
-  "Assistant Life Coach", "Intermediate Emergency First Aid Responder",
-  "Workplace Preparedness", "Community Development Worker",
-  "Learning & Development Facilitator", "Assistant Handyperson",
-  "Job Placement Facilitator", "Workplace Essential Skills",
-  "Career Development Information Officer", "Bookkeeper",
-  "Early Childhood Development Practitioner", "Christian Religious Professional",
-  "Early Childhood Caregiver", "Technopreneur", "New Venture Creation"
-];
+// Removed QCTO_COURSES as per request to remove accredited courses
 
 export const TESTIMONIALS = [
   {
