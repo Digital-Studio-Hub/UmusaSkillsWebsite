@@ -12,7 +12,7 @@ COPY package*.json ./
 COPY tsconfig.json ./
 COPY vite.config.ts ./
 COPY postcss.config.js ./
-COPY tailwind.config.js ./
+
 
 # Copy source code
 COPY client ./client
@@ -54,7 +54,7 @@ COPY --from=builder /app/public ./public
 
 # Health check to help Cloud Run understand container status
 HEALTHCHECK --interval=30s --timeout=10s --start-period=40s --retries=3 \
-  CMD node -e "require('http').get('http://localhost:8080/health', (r) => {if (r.statusCode !== 200) throw new Error(r.statusCode)})"
+    CMD node -e "require('http').get('http://localhost:8080/health', (r) => {if (r.statusCode !== 200) throw new Error(r.statusCode)})"
 
 # Cloud Run requires the container to listen on the port defined by the PORT environment variable
 # Default to 8080
