@@ -44,12 +44,20 @@ export default function ContactForm() {
   async function onSubmit(values: z.infer<typeof formSchema>) {
     setIsLoading(true);
     try {
-      // Mock backend call - In a real app this would hit /api/send-mail
-      // which handles ZeptoMail integration
-      console.log("Submitting to ZeptoMail endpoint:", values);
-      
-      // Simulate network delay
-      await new Promise(resolve => setTimeout(resolve, 1500));
+      // Submit to the backend /api/contact endpoint
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(values),
+      });
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.message || "Failed to send message");
+      }
 
       toast({
         title: "Message Sent Successfully!",
@@ -60,9 +68,10 @@ export default function ContactForm() {
       
       form.reset();
     } catch (error) {
+      const errorMessage = error instanceof Error ? error.message : "Something went wrong";
       toast({
         title: "Error Sending Message",
-        description: "Something went wrong. Please try again or WhatsApp us.",
+        description: errorMessage || "Please try again or WhatsApp us.",
         variant: "destructive",
       });
     } finally {
