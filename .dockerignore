@@ -59,6 +59,5 @@ CONTRIBUTING.md
 .circleci/
 
 # Other
-attached_assets/
 *.bak
 *.md
