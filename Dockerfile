@@ -22,6 +22,7 @@ COPY script ./script
 COPY components.json ./
 COPY drizzle.config.ts ./
 COPY vite-plugin-meta-images.ts ./
+COPY attached_assets ./attached_assets
 
 # Install all dependencies (including dev)
 RUN npm ci
