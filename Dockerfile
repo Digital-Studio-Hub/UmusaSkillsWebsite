@@ -51,7 +51,6 @@ RUN npm ci --omit=dev
 
 # Copy built application from builder
 COPY --from=builder /app/dist ./dist
-COPY --from=builder /app/public ./public
 
 # Health check to help Cloud Run understand container status
 HEALTHCHECK --interval=30s --timeout=10s --start-period=40s --retries=3 \
